@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Mood Item
+
+# Model Form Field configuration
+form: $/bizmark/moodtracker/models/mooditem/fields.yaml
+
+# Model Class name
+modelClass: Bizmark\Moodtracker\Models\MoodItem
+
+# Default redirect location
+defaultRedirect: bizmark/moodtracker/mooditems
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: bizmark/moodtracker/mooditems/update/:id
+    redirectClose: bizmark/moodtracker/mooditems
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: bizmark/moodtracker/mooditems
+    redirectClose: bizmark/moodtracker/mooditems
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title

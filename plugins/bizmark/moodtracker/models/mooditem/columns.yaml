@@ -1,0 +1,19 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+
+    person:
+        label: ID сотрудника
+        type: text
+
+    mood:
+        label: Настроение
+        type: text
+
+    created_at:
+        label: Дата
